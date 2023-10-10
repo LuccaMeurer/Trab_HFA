@@ -18,6 +18,26 @@ module.exports = {
             full_name: {
                 type: Sequelize.STRING
             },
+            data_nacimento: {
+                allowNull: false,
+                type: Sequelize.DATE
+            },
+            cpf: {
+                allowNull: false,
+                type: Sequelize.STRING
+            },
+            email: {
+                allowNull: false,
+                type: Sequelize.STRING
+            },
+            sexo: {
+                allowNull: false,
+                type: Sequelize.STRING
+            },
+            estado_civil: {
+                allowNull: false,
+                type: Sequelize.STRING
+            },
             cpf: {
                 allowNull: false,
                 type: Sequelize.STRING
