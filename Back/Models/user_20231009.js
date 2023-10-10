@@ -24,6 +24,10 @@ export default class User extends Model {
           type: DataTypes.STRING(255),
           allowNull: true,
         },
+        cpf: {
+           type: DataTypes.STRING(255),
+           allowNull: false,
+        },
       },
       {
         tableName: "user",
