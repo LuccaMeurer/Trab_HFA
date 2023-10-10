@@ -18,7 +18,11 @@ module.exports = {
             full_name: {
                 type: Sequelize.STRING
             },
-            created_at: {
+            cpf: {
+                allowNull: false,
+                type: Sequelize.STRING
+            },
+             created_at: {
                 allowNull: false,
                 type: Sequelize.DATE
             },
