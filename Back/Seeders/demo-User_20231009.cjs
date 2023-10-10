@@ -9,6 +9,10 @@ module.exports = {
             username: 'LuccaM',
             password: 'password',
             cpf: '03138067131',
+            data_nascimento:'1999/10/03',
+            email:'luccameurer1@gmail.com',
+            sexo:'M',
+            estado_civil:'Solteiro',
             created_at: moment().utc().format('YYYY/MM/DD HH:mm:ss'),
             updated_at: moment().utc().format('YYYY/MM/DD HH:mm:ss')
         }, {
@@ -16,6 +20,10 @@ module.exports = {
             username: 'Rafinha',
             password: 'password',
             cpf: '12345678912',
+            data_nascimento:'2000/01/01',
+            email:'rafinhareidelas@gmail.com',
+            sexo:'F',
+            estado_civil:'Casado',
             created_at: moment().utc().format('YYYY/MM/DD HH:mm:ss'),
             updated_at: moment().utc().format('YYYY/MM/DD HH:mm:ss')
         }], {});
