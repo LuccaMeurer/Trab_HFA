@@ -20,12 +20,28 @@ export default class User extends Model {
           type: DataTypes.STRING(255),
           allowNull: true,
         },
+         data_nacimento: {
+          type: DataTypes.STRING(255),
+          allowNull: true,
+        },
+         email: {
+          type: DataTypes.STRING(255),
+          allowNull: true,
+        },
+         sexo: {
+          type: DataTypes.STRING(1),
+          allowNull: true,
+        },
+         estado_civil: {
+          type: DataTypes.STRING(255),
+          allowNull: true,
+        },
         password: {
           type: DataTypes.STRING(255),
           allowNull: true,
         },
         cpf: {
-           type: DataTypes.STRING(255),
+           type: DataTypes.BIGINT,
            allowNull: false,
         },
       },
